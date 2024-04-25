@@ -247,30 +247,7 @@ header{
 /* **************************************************************************** */
 
 
-/*sponsor ******************************************************** */
-/* **************************************************************************** */
-.sponsor-img{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-
-.sponsor-img img{
-    height: auto;
-    flex-basis: 25%;
-    margin-left: 1rem;
-    flex-wrap: wrap;
-}
-
-/*fin sponsor ******************************************************** */
-/* **************************************************************************** */
-
-
-/*fin experience ******************************************************** */
-/* **************************************************************************** */
+/*experience* */
 .experience{
     /* background-color:#7562e010; */
     padding: 30px 0 30px 0;
@@ -396,20 +373,6 @@ header{
 /*fin experience ******************************************************** */
 /* **************************************************************************** */
 
-.item--content{
-    color :white;
-    position:absolute;
-    bottom:0px;
-    text-align: center;
-}
-
-/* .brand--image{
-
-    z-index: 9999;
-    width: 100%;
-    height: auto;
-
-} */
 /*boutons ******************************************************** */
 /* **************************************************************************** */
 
@@ -433,114 +396,6 @@ box-shadow: 0 0 0 0 var(--black), inset 6em 3.5em 0 0 var(--black);
 }
 /*fin boutons ******************************************************** */
 /* **************************************************************************** */
-
-
-table .tr{
-    border : none;
-}
-
-/* work************************************************************************/
-/* ******************************************************************************** */
-    /* .work{
-        margin-top: 40px;
-    } */
-
-    .work--title{
-        display: flex;
-       /* align-items: center; */
-       justify-content: space-between; 
-    }
-
-    .work--title div{
-        width: 50%;
-    }
-
-    .work--title div p{
-        margin-bottom: 40px;
-    }
-
-    .work--title div a{
-       color: var(--violet);
-       transition: all .3s ease-in-out;
-       margin-top: 40px;
-    }
-
-    .work--title div  a:hover{
-        color: var(--black);
-    }
-
-    .work--cards{
-       display: flex;
-       align-items: center;
-       justify-content: space-between; 
-       flex-wrap: wrap;
-       margin-top: 100px;
-    }
-
-    .work--card{
-        height: 300px;
-        overflow: hidden;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.18);
-        margin-bottom: 20px;
-        width: 31%;
-        margin-right: 10px;
-    }
-
-    .work--card img{
-        width: 100%;
-        object-fit: cover;
-        position: relative;
-        transition: ease-in-out 3s;
-        top: 0;
-    }
-
-    .work--card:hover img{
-        transform: translateY(calc(-100% + 300px));
-    }
-
-    .waiting-rectangle {
-        background-color: #ff6624;
-        border-bottom-left-radius: 61px;
-        width: 30%;
-        height: 100vh;
-        top: 0;
-        bottom: 0;
-        right: 0;
-      }
-      
-     
-      
-      .waiting-cover {
-    
-        width:100%;
-      }
-      .row{
-          display : flex;
-      }
-
-      .col-sm-7{
-          width: 45%;
-          margin-left: 1rem;
-      }
-
-      .col-sm-5{
-        width: 55%;
-      }
-
-      .google--button{
-        text-align: center;
-      }
-
-      .waiting-text-desc{
-        text-align: justify;
-      }
-
-
-/* fin work ************************************************************************/
-/* ******************************************************************************** */
-
 
 /* testimonials ************************************************************************/
 /* ******************************************************************************** */
